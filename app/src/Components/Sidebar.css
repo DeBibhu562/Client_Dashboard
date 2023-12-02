@@ -1,0 +1,93 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
+  top:10px;
+  color: aliceblue;
+  width: 4rem;
+  height: max-content;
+  transition: 0.5s;
+  z-index: 10;
+  font-size: 13px;
+  border-radius: 20px;
+  background: #222;
+}
+
+.Sidebar.active {
+  width: 12rem;
+  height: max-content;
+  background: #222;
+}
+
+.Sidebar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.logo-img {
+  width: 24px;
+  height: 24px;
+  margin-top: 15px;
+}
+.Sidebar-Options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  margin-bottom: 12rem;
+}
+.Sidebar-Option {
+  display: flex;
+  gap: 5px;
+  margin: 9px;
+}
+.sidebar-img {
+  width: 15px;
+  height: 15px;
+}
+.Sidebar-features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.Sidebar-feature {
+  display: flex;
+  gap: 1rem;
+  margin-block: 10px;
+  margin-inline: 10px;
+  background-color: #222;
+}
+.feature-img {
+  margin-inline: 5px;
+  background: #222;
+}
+
+.dropdown {
+  text-align: left !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.text {
+  margin: 0;
+  padding: 0;
+}
+
+.text li {
+  margin: 0;
+  padding: 0;
+  margin-left: 12px;
+  padding: 5px;
+}
+.Hide {
+  display: none;
+}
+
+.Show {
+  display: block;
+}

@@ -1,0 +1,16 @@
+.page-btn {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  width: fit-content;
+  border-radius: 8px;
+}
+.MainPage-div {
+  display: flex;
+}
+.btn-div {
+  display: flex;
+  gap: 1rem;
+  margin-left: 5rem;
+  height: fit-content;
+}

@@ -1,0 +1,120 @@
+.Contract-div {
+  width: 85vw;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  margin: 1.4rem;
+  margin-left: 6rem;
+}
+
+.Contract-input-group {
+  display: flex;
+  gap: 10px;
+}
+.Contract-from-col-div {
+  width: 100%;
+  position: relative;
+}
+.Contract-form-label {
+  position: absolute;
+  top: -10px;
+  left: 9%;
+  color: #999;
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+.Contract-half-input {
+  padding: 9px;
+  width: 82%;
+  border: 1px solid rgb(141, 134, 134);
+  outline: none;
+  border-radius: 8px;
+  margin-bottom: 1.3rem;
+}
+
+.full-Contract-form-label {
+  position: absolute;
+  top: -10px;
+  left: 5.2%;
+  color: #999;
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+.Contract-full-input {
+  width: 91%;
+  padding: 10px;
+  border: 1px solid rgb(174, 170, 170);
+  border-radius: 10px;
+}
+.circleplus {
+  position: absolute;
+  top: 11px;
+  left: 5%;
+  width: 17px;
+  height: 17px;
+}
+
+.button-div {
+  padding-top: 12px;
+}
+
+.proceed-btn {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  margin-right: 3%;
+  padding-inline: 12px;
+}
+
+.cancel-btn {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  padding-inline: 12px;
+  border-radius: 8px;
+  margin-right: 76%;
+  border: 2px solid rgb(156, 149, 149);
+}
+
+.input-group input {
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.full-width-input {
+  border-radius: 8px;
+  width: 98%;
+}
+
+/* Media Query  for Mobile and Tablet */
+@media (max-width: 920px) {
+  .Contract-div {
+    width: 80vw;
+  }
+}
+@media (max-width: 800px) {
+  .Contract-div {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 640px) {
+  .Contract-div {
+    width: 65vw;
+  }
+  .Contract-input-group {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .Contract-half-input {
+    width: 90.2%;
+  }
+  .Contract-form-label {
+    left: 5%;
+  }
+  .cancel-btn {
+    margin-right: 0;
+  }
+}

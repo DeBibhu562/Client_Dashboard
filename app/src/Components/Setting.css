@@ -1,0 +1,169 @@
+.Setting-main {
+  display: flex;
+  width: 80vw;
+  height: 90vh;
+  margin-right: 5%;
+  margin-left: 5rem;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 8;
+  background-color: #FFF;
+  margin-top: 1.2rem;
+  overflow-y: scroll;
+}
+.Setting-title {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.Leftbar {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+  width: 17%;
+  justify-content: left;
+  padding-left: 5px;
+}
+.rightbar {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-inline: 5%;
+}
+.Sidebar-feature {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  padding-block: 8px;
+  padding-inline: 10px;
+  gap: 8px;
+  margin-inline: 5%;
+  border-radius: 5px;
+}
+.Theme-title {
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.theme-div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  width: 100%;
+}
+.light-theme {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  height: 6rem;
+  padding: 3%;
+  padding-top: 5%;
+  display: flex;
+  align-items: start;
+}
+.Dark-theme {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  height: 6rem;
+  background-color: rgb(35, 32, 32);
+  color: aliceblue;
+  padding: 3%;
+  padding-top: 5%;
+  display: flex;
+  align-items: start;
+}
+.themelogo {
+  width: 3rem;
+  height: 3rem;
+}
+.lightleft {
+  width: 90%;
+}
+.lowerbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.Tax-div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 45%;
+}
+.Language-div {
+  width: 45%;
+  overflow-y: scroll;
+}
+.Language-input {
+  width: 100%;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+.Tax-input {
+  padding: 5px;
+}
+.Tax-txt {
+  text-align: left !important;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 920px) {
+  .Setting-main {
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+  }
+  .Leftbar {
+    width: 30%;
+  }
+  .rightbar {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Setting-main {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    padding-bottom: 2rem;
+    margin-right: 3%;
+  }
+  .Leftbar {
+    border-right: none;
+    width: 50%;
+  }
+  .rightbar {
+    display: flex;
+    flex-direction: column;
+    border-right: none;
+    width: 90%;
+    padding-inline: 5%;
+  }
+  .lowerbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Language-div {
+    width: 85%;
+    overflow-y: scroll;
+  }
+  .Language-input {
+    width: 90%;
+    padding: 2px;
+    overflow-y: scroll;
+    font-size: 12px;
+  }
+  .Tax-div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 85%;
+  }
+  .drop-option {
+    font-size: 10px; 
+    padding: 1px; 
+    margin: 0;
+  }
+}

@@ -1,0 +1,99 @@
+.Accounts-main {
+  flex-grow: 1;
+  width: 94vw;
+  margin-left: 4.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+.from-col-div {
+  width: 70%;
+  position: relative;
+}
+
+.form-label {
+  position: absolute;
+  top: -0px;
+  left: 8%;
+  color: #999;
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.from-col1,
+.from-col2 {
+  width: 86%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(165, 156, 156);
+  outline: none;
+}
+
+.btn-row {
+  display: flex;
+  padding-left: 2.7%;
+}
+.psd-btn {
+  background-color: rgb(36, 35, 35);
+  padding: 8px;
+  border-radius: 8px;
+  color: aliceblue;
+  border: 1px solid rgb(165, 156, 156);
+  margin-right: 2%;
+}
+.cnl-btn {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgb(165, 156, 156);
+  margin-right: 65%;
+}
+.DA-txt {
+  color: rgba(76, 78, 100, 0.87);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+.agree {
+  display: flex;
+  gap: .7rem;
+  align-content: center;
+}
+.DA-btn {
+  padding: 8px;
+  width: fit-content;
+  border: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .Accounts-main {
+    width: 70vw;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+  .from-col-div {
+    width: 85%;
+  }
+  .btn-row {
+    padding-inline: 2.7%;
+    gap: 1rem;
+  }
+  
+}
